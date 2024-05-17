@@ -1,9 +1,11 @@
+import SideBar from "components/SideBar";
 import { Outlet } from "react-router-dom";
 
 const BaseLayout = (children) => {
   return (
     <>
-        {children || <Outlet/>}
+        <SideBar/>
+        <Outlet/>
     </>
   )
 }
