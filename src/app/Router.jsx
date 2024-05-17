@@ -1,4 +1,4 @@
-import SuspenseLoader from "component/SuspenseLoader"
+import SuspenseLoader from "components/SuspenseLoader"
 import BaseLayout from "layout/BaseLayout";
 import { Suspense, lazy } from "react"
 import { Navigate } from "react-router-dom";
